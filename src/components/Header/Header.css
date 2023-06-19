@@ -1,0 +1,23 @@
+.header{
+    min-height: 70px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nave ul {
+    padding: 0;
+    margin: 0;
+}
+.nave ul li{
+    list-style: none;
+    display: inline-block;
+}
+.nave ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 30px;
+}
+.nave ul li a:hover{
+    color: #FF9900;
+}

@@ -1,0 +1,21 @@
+.shop-page{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    max-width: 1180px;
+    margin: auto;
+}
+.product-list{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 20px;
+}
+.orders{
+    position: sticky;
+    top: 0;
+    margin: 15px;
+    padding: 15px;
+    background: #FFE0B3;
+    border-radius: 10px;
+    height: 400px;
+    margin-top: 40px;
+}
